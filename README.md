@@ -41,7 +41,7 @@ conda env create -f robotics_course_env.yml
 From there on, to work on a tutorial notebook, you only need to activate the environment:
 
 ```bash
-conda activate robotics_course
+conda activate mva_robotics_2025
 ```
 
 Then launch the notebook with:
