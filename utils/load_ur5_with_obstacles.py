@@ -68,6 +68,19 @@ def load_ur5_with_obstacles(robotname='ur5',reduced=False):
 
     return robot
 
+def load_ur5(robotname='ur5',reduced=False):
+
+    ### Robot
+    # Load the robot
+    robot = robex.load(robotname)
+    
+    ### Geom data
+    # Collision/visual models have been modified => re-generate corresponding data.
+    robot.collision_data = pin.GeometryData(robot.collision_model)
+    robot.visual_data    = pin.GeometryData(robot.visual_model   )
+
+    return robot
+
 
 class Target:
     '''
