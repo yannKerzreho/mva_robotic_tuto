@@ -21,6 +21,6 @@ dependencies:
   - imageio
   - mujoco=2.3.7
   - rich
-  - stable-baselines3
+  - stable-baselines3=2.3.2
   - tensorboard
   - pip
