@@ -17,7 +17,7 @@ dependencies:
   - tensorflow
   - gym
   - tqdm
-  - gymnasium
+  - gymnasium=0.29.1
   - imageio
   - mujoco=2.3.7
   - rich
